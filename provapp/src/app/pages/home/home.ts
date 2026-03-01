@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AuthService } from '../../core/auth.service';
+import { Component } from '@angular/core';
+import { AuthService } from '../../core/auth.guard';
 
 @Component({
   selector: 'app-home',

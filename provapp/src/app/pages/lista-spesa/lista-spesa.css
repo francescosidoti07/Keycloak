@@ -1,0 +1,8 @@
+/* Lista spesa styles */
+
+.spesa-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.spesa-form{display:flex;gap:8px}
+.spesa-form input{flex:1}
+.spesa-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.spesa-item{padding:12px;border-radius:10px;background:var(--surface);box-shadow:var(--card-shadow);display:flex;justify-content:space-between;align-items:center}
+.spesa-item .meta{color:var(--muted);font-size:13px}

@@ -1,0 +1,7 @@
+/* Profile page styles */
+
+.profile-card{display:flex;gap:20px;align-items:center;padding:18px;border-radius:12px;background:var(--surface);box-shadow:var(--card-shadow)}
+.profile-info h2{margin:0;font-size:18px}
+.profile-info p{margin:6px 0 0 0;color:var(--muted)}
+
+.profile-actions{display:flex;gap:8px;margin-top:12px}

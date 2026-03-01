@@ -1,0 +1,14 @@
+/* Home page styles */
+
+.home-hero{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.hero-left{max-width:66%}
+.hero-title{font-size:22px;margin:0 0 6px 0}
+.hero-sub{color:var(--muted);margin:0}
+
+.dashboard-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stat-card{padding:16px;border-radius:12px;background:linear-gradient(180deg,#fff,#fcfdff);box-shadow:var(--card-shadow)}
+.stat-value{font-size:20px;font-weight:700}
+.stat-label{color:var(--muted);font-size:13px}
+
+@media (max-width:900px){.dashboard-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.dashboard-grid{grid-template-columns:1fr}}

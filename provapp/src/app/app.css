@@ -1,0 +1,12 @@
+/* App layout and component styles */
+
+.app-header{background:transparent}
+.app-main{display:flex;gap:20px;margin-top:18px}
+.app-main .content{flex:1}
+.app-sidebar{width:260px}
+
+.footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+
+/* Small utilities */
+.center{display:flex;align-items:center;justify-content:center}
+.avatar{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--accent));color:white;display:flex;align-items:center;justify-content:center;font-weight:700}

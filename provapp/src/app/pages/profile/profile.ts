@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { AuthService } from '../../core/auth.service';
+import { AuthService } from '../../core/auth.guard';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-profile',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './profile.html',
   styleUrl: './profile.css',
 })
